@@ -12,7 +12,7 @@ partition=$(echo $Disk_usage | awk '{print $1F}')
 
 if [ $usage -gt $Disk_Threshold]
 then 
-echo -e "Message : High Disk usage on $partition : $usage\n  "
+echo -e "Message : High Disk usage on $partition : $usage\n"
 
 done
 
